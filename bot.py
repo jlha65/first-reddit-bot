@@ -2,6 +2,7 @@ import praw
 import config
 import time
 import os
+import requests
 
 def bot_login():
     loginInstance = praw.Reddit(username = config.username,
